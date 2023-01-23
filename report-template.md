@@ -3,7 +3,7 @@
 
 ## Initial Training
 ### What did you realize when you tried to submit your predictions? What changes were needed to the output of the predictor to submit your results?
-TODO: Add your explanation
+TODO: Predictions needed to be greater than or equal to 0. That’s why clipping the predictions to have the lower boundary of zero was done. Also rounding the target ‘count’
 
 ### What was the top ranked model that performed?
 TODO: WeightedEnsemble_L3
